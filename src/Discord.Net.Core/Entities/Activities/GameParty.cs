@@ -10,10 +10,12 @@ namespace Discord
         /// <summary>
         ///     Gets the ID of the party.
         /// </summary>
+        public string Id { get; internal set; }
+        
         /// <returns>
         ///     A string containing the unique identifier of the party.
         /// </returns>
-        public string Id { get; internal set; }
+        
         public long Members { get; internal set; }
         /// <summary>
         ///     Gets the party's current and maximum size.
